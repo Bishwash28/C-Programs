@@ -4,25 +4,25 @@ main()
 
 {
 
-struct date
+  struct date
 
-{
+  {
 
-int day, month,year;
+    int day, month,year;
 
-};
+  };
 
-struct employee
+  struct employee
 
-{
+  {
 
-char name[20];
+    char name[20];
 
-int id;
+    int id;
 
-struct date dateofbirthday;
+    struct date dateofbirthday;
 
-float salary;
+    float salary;
 
 };
 
